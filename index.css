@@ -1,0 +1,114 @@
+body{
+    background-color: rgb(21 21 33);
+    color: white;
+    font-family: system-ui;
+    transition: 1s;
+}
+.dark-mode{
+    background-color: rgba(241, 238, 238, 0.877);
+     color: rgb(0, 0, 0)!important;
+  }
+.header{
+    display: flex;
+    margin: 0 50px 0 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    border-radius: 20px;
+    overflow: hidden;
+}
+.logo a{
+    text-decoration: none;
+    color: rgb(31, 204, 146);
+    transition: 0.5s;
+}
+.logo a:hover{
+    text-decoration: none;
+    color: white;
+}
+.img1{
+    width: 50px;
+    border-radius: 50px;
+}
+i{font-size: 32px;}
+ul{
+    display: flex;
+    list-style: none;
+    width: 500px;
+    justify-content: space-between;
+    gap: 25px;
+    
+}
+ul li a{
+   
+    text-decoration: none;
+    padding: 10px;
+    color: rgb(16, 221, 201);
+    border-radius: 12px;
+    transition: 0.5s;
+}
+ul li a:hover{
+    text-shadow: 0px 1px 4px rgba(12, 68, 59, 0.911);
+    box-shadow: 0px 0px 8px 1px rgb(31, 204, 146);
+    text-decoration: none;
+    background-color: rgb(243, 243, 243);
+    padding: 15px;
+    color: rgb(2, 2, 2);
+    border: rgba(253, 253, 253, 0.527) 1px solid;
+    border-radius: 12px;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 120px;
+}
+.demo{
+    opacity: 0.5    ;
+}
+.photo{
+    overflow: hidden;
+    border-radius: 12px;
+}
+.photo1{
+    width: 500px;
+}
+ol{
+    margin-top: 40px;
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn{
+    outline: none;
+    padding: 12px;
+    font-family: auto;
+    border-radius: 12px;
+    border: none;
+    background: #254147fc;
+    color: white;
+    transition: 0.8s;
+    margin-top: 20px;
+}
+.btn:hover{
+    box-shadow: 0px 0px 8px 1px rgb(31, 204, 146);
+    text-decoration: none;
+    background-color: rgb(59, 55, 55);
+    font-size: medium;
+    color: rgb(252, 250, 250);
+    border: rgba(253, 253, 253, 0.527) 1px solid;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.night{
+    padding: 0;
+    border: none;
+    width: 0px;
+    cursor: pointer;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
